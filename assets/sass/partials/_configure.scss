@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Passion+One:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Passion+One:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.content {
+  h1 {
+    color: #000;
+    font-family: Outfit;
+    font-size: 44px;
+    font-weight: 600;
+  }
+  p {
+    color: #000;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 992px) {
+  .content {
+    h1 {
+      font-size: 30px !important;
+    }
+    p {
+      font-size: 16px !important;
+    }
+  }
+}
+@media (max-width: 576px) {
+      .content {
+        h1 {
+          font-size: 30px !important;
+        }
+        p {
+          font-size: 15px !important;
+        }
+    }
+  }
+
+  p {
+    color: #000;
+    font-family: Outfit;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  @media (max-width:992px) {
+    p {
+      font-size: 18px !important;
+    }
+  }
+$Text-color: #000;
+$Primary-color: #776ada;
+$bg-color: #f3f1ff;
